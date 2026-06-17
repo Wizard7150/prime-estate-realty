@@ -1,2 +1,25 @@
-# prime-estate-realty
-Premium luxury real estate website demo built with HTML, CSS and JavaScript. Designed as a portfolio project showcasing responsive design, lead generation features and modern UI/UX.
+# Prime Estate Realty
+
+A premium luxury real estate website demo created by Karthik Sankkar.
+
+## Features
+
+- Responsive Design
+- Luxury UI/UX
+- Property Listings
+- Agent Profiles
+- Contact Form
+- WhatsApp Integration
+- Smooth Animations
+- Mobile Friendly
+
+## Live Demo
+
+Coming Soon
+
+## Developer
+
+Karthik Sankkar
+
+GitHub:
+https://github.com/Wizard7150
