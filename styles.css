@@ -541,7 +541,7 @@ html {
   justify-content: center;
   overflow: hidden;
   background-color: var(--clr-navy);
-  background-image: url('images/hero-bg.png');
+  background-image: url('hero-bg.png');
   background-size: cover;
   background-position: center 40%;
   background-repeat: no-repeat;
