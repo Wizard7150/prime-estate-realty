@@ -525,29 +525,3 @@ document.addEventListener('DOMContentLoaded', () => {
     { passive: true }
   );
 });
-/* PROPERTY FILTER CODE */
-const filterButtons = document.querySelectorAll('.filter-btn');
-const propertyCards = document.querySelectorAll('.property-card');
-
-if (filterButtons.length && propertyCards.length) {
-  filterButtons.forEach(button => {
-    button.addEventListener('click', () => {
-
-      filterButtons.forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
-
-      const filter = button.dataset.filter;
-
-      propertyCards.forEach(card => {
-        const category = card.dataset.category;
-
-        if (filter === 'all' || category === filter) {
-          card.style.display = 'block';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-
-    });
-  });
-});
